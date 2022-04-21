@@ -15,7 +15,7 @@
  ┣ 📜README.md
  ┣ 📜generator.py
  ┣ 📜input.txt
- ┗ 📜visualiser.py
+ ┗ 📜visualizer.py
 ```
 
 # Steps to Run the Code
@@ -24,7 +24,7 @@
     `python generator.py > input.txt`
 -   Visualize the graph:
     -   `pip install graphviz` (One time dependency)
-    -   `python visualiser.py`
+    -   `python visualizer.py`
 -   To test a Python code:  
     `python Python/<variant>.py < input.txt`
 -   To test a CPP code:
@@ -39,13 +39,13 @@
 
 # Input Format
 
-The graph has $n$ nodes numbered $0$ to $n-1$
+The graph has **n** nodes numbered **0** to **n-1**
 
-$n-2$ represents source and $n-1$ represents sink
+**n-2** represents source and **n-1** represents sink
 
-The first line contains $n$,$e$ representing total number of nodes and number of edges in the graph
+The first line contains **n**,**e** representing total number of nodes and number of edges in the graph
 
-Following next $e$ lines contains $u$,$v$,$c$ representing a directed edge from $u$ to $v$ with a capacity $c$
+Following next **e** lines contains **u**,**v**,**c** representing a directed edge from **u** to **v** with a capacity **c**
 
 # Output Format
 
