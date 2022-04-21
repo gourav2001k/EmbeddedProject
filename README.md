@@ -26,8 +26,13 @@
     `python visualiser.py`
 -   To test a Python code:  
     `python Python/<variant>.py < input.txt`
--   To test a CPP code:  
-    `g++ CPP/<variant>.cpp -o <variant>; ./<variant> < input.txt`
+-   To test a CPP code:
+
+    -   First change the directory to _CPP_ folder
+        `cd CPP`
+    -   Then compile and run using _cmake_ or _g++_
+        -   **using cmake**: `make <variant> && ./<variant>`
+        -   **using g++**: `g++ CPP/<variant>.cpp -o <variant> && ./<variant>`
 
     (Here \<variant\> should be replaced with the one's listed above)
 
