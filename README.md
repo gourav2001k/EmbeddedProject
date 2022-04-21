@@ -22,8 +22,9 @@
 
 -   Generate Input graph:  
     `python generator.py > input.txt`
--   Visualize the graph:  
-    `python visualiser.py`
+-   Visualize the graph:
+    -   `pip install graphviz` (One time dependency)
+    -   `python visualiser.py`
 -   To test a Python code:  
     `python Python/<variant>.py < input.txt`
 -   To test a CPP code:
